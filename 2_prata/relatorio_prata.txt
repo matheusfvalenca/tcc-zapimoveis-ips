@@ -1,0 +1,100 @@
+RELATÓRIO DA CAMADA PRATA — tratamento da base do ZAP Imóveis
+Gerado em 07/09/2026 16:14
+
+==============================================================================
+0. LEITURA DA BASE BRUTA
+==============================================================================
+arquivo: zap_imoveis_raw_rj.csv
+17945 registros e 16 colunas
+
+==============================================================================
+1. NORMALIZAÇÃO DE TEXTOS
+==============================================================================
+bairro separado do município em 17945 registros
+  657 anúncios de "Barra Olímpica" reagrupados em "Barra da Tijuca"
+zona do portal atribuída a 17945 registros (via bairros_rj.csv)
+156 bairros distintos após a normalização
+chave de junção criada (bairro_chave), ex.: "São Cristóvão" → "sao cristovao"
+
+==============================================================================
+2. FILTRO DO MUNICÍPIO
+==============================================================================
+descartado: São Francisco de Assis, Belford Roxo (busca: Benfica)
+descartado: Jardim Guandu, Nova Iguaçu (busca: Campo Grande)
+2 anúncio(s) de outros municípios descartado(s); restam 17943
+
+==============================================================================
+3. CONVERSÃO DE MOEDAS E MEDIDAS
+==============================================================================
+etiqueta de preço recuperada em 1048 registros (1017 vindas coladas ao IPTU)
+aluguel    :  17943 valores numéricos ·     0 isentos (0) ·     0 ausentes
+condominio :  15245 valores numéricos ·  2561 isentos (0) ·  2698 ausentes
+iptu       :  15987 valores numéricos ·  1934 isentos (0) ·  1956 ausentes
+area_m2    :  17943 convertidas ·   105 vindas de faixa (ponto médio)
+quartos    :  10044 informados ·  7899 vazios (kitnets e imóveis comerciais)
+
+==============================================================================
+4. ATRIBUTOS DERIVADOS
+==============================================================================
+classe residencial       :   9391 (52.3%)
+classe comercial         :   8008 (44.6%)
+classe não identificado  :    525 (2.9%)
+classe rural             :     19 (0.1%)
+preco_m2 calculado em 17939 registros · mediana R$ 41.96/m²
+
+==============================================================================
+5. REMOÇÃO DE DUPLICATAS
+==============================================================================
+anúncios com id repetido (já tratados na Camada Bronze): 0
+registros que coincidem em bairro + rua + aluguel + condominio + area_m2 + quartos: 2468
+provável mesmo imóvel republicado ou anunciado por várias imobiliárias: 1486 linhas excedentes
+base após a deduplicação: 16457 imóveis únicos
+
+==============================================================================
+6. MARCAÇÃO DE OUTLIERS E INCONSISTÊNCIAS
+==============================================================================
+aluguel abaixo de R$ 300                  :    53 registros
+aluguel acima de R$ 1.000.000             :    14 registros
+área abaixo de 10 m²                      :    57 registros
+área acima de 10.000 m²                   :   100 registros
+preço por m² abaixo de R$ 5               :   127 registros
+preço por m² acima de R$ 500              :    46 registros
+condomínio acima de 3x o aluguel          :    87 registros
+total de registros marcados como outlier: 389 (2.4%)
+nenhuma linha foi apagada por esta etapa — a exclusão é decidida na coluna apto_analise
+
+==============================================================================
+7. RECORTE ANALÍTICO
+==============================================================================
+registros sem outlier e com aluguel e área: 16068
+apto_analise = verdadeiro em 16068 de 16457 registros (97.6%)
+
+==============================================================================
+8. CRUZAMENTO COM O IPS
+==============================================================================
+bairros_para_depara.csv: 154 bairros listados para o preenchimento do de-para
+depara_bairros_ra.xlsx: 33 regiões administrativas, 166 bairros
+bairros homônimos em mais de uma RA (resolvidos pelo nome qualificado): Freguesia
+de-para aplicado: 16457 anúncios (100.0%) com região administrativa
+referência da cidade: IPS 64.5 (linha excluída da junção)
+ips_rio.xlsx: 32 regiões administrativas na aba "Dimensões e Componentes 2024" (ips_necessidades_basicas, ips_bem_estar, ips_oportunidades também importadas)
+IPS aplicado: 16452 anúncios (100.0%) com nota do IPS
+nota do IPS entre 47.4 e 89.1; colunas acrescentadas: ips, ips_necessidades_basicas, ips_bem_estar, ips_oportunidades
+regiões administrativas sem nota na base do IPS: Ilha de Paquetá
+
+==============================================================================
+9. ARQUIVOS GERADOS
+==============================================================================
+zap_imoveis_prata.csv: 16457 registros tratados, 32 colunas
+zap_imoveis_prata_analise.csv: 16068 registros aptos à análise
+prata_descartes.csv: 1488 registros descartados, com o motivo
+
+==============================================================================
+RESUMO
+==============================================================================
+base bruta ................... 17945
+(-) fora do município ........ 2
+(-) duplicatas de conteúdo ... 1486
+base tratada ................. 16457
+    dos quais outliers ....... 389 (marcados, não apagados)
+aptos à análise .............. 16068 (89.5% da base bruta)

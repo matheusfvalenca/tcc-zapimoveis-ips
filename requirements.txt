@@ -1,0 +1,21 @@
+# Camada Bronze — scraper ZAP Imóveis (Python 3.10+)
+undetected-chromedriver>=3.5.5
+selenium>=4.15
+beautifulsoup4>=4.12
+lxml>=5.0
+pandas>=2.0
+# O undetected-chromedriver 3.5.5 ainda importa `distutils`, removido do Python 3.12;
+# o setuptools fornece um substituto compatível (sem ele: ModuleNotFoundError: distutils).
+setuptools>=70
+
+# Camada Prata — leitura das planilhas do IPS e do de-para (.xlsx)
+openpyxl>=3.1
+
+# Camada Ouro — análise e figuras
+matplotlib>=3.10
+# O SciPy fornece os p-valores dos testes de correlação. Sem ele o script ainda roda,
+# mas reporta apenas os coeficientes, sem significância estatística.
+scipy>=1.11
+
+# Opcional, só para rodar os testes offline (tests/)
+pytest>=8.0

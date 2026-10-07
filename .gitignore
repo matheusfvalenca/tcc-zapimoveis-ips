@@ -1,0 +1,17 @@
+# Ambiente virtual e caches do Python — são específicos de cada máquina
+# (a .venv fica fora desta pasta, mas a regra protege contra um descuido)
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Arquivos temporários que o Word e o Excel criam enquanto o documento está aberto
+~$*
+
+# Arquivos de sistema do Windows e do OneDrive
+desktop.ini
+Thumbs.db
+
+# Configurações locais do VS Code (caminho do interpretador etc.)
+.vscode/

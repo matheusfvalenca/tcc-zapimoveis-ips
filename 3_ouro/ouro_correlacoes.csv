@@ -1,0 +1,12 @@
+﻿dimensao,coluna,n,pearson,p_pearson,spearman,p_spearman,bloco,teste,regioes,imoveis,r2
+IPS geral,ips,25,0.62,0.0009,0.55,0.004,dimensões,,,,
+Necessidades Humanas Básicas,ips_necessidades_basicas,25,0.44,0.0263,0.26,0.2012,dimensões,,,,
+Fundamentos do Bem-Estar,ips_bem_estar,25,0.65,0.0004,0.65,0.0005,dimensões,,,,
+Oportunidades,ips_oportunidades,25,0.59,0.0021,0.6,0.0014,dimensões,,,,
+,,27,0.63,0.0004,0.6,0.0009,robustez,corte >= 10 anúncios,27.0,8900.0,0.41
+,,26,0.62,0.0008,0.57,0.0024,robustez,corte >= 20 anúncios,26.0,8887.0,0.38
+,,25,0.62,0.0009,0.55,0.004,robustez,corte >= 30 anúncios,25.0,8867.0,0.38
+,,20,0.72,0.0004,0.75,0.0001,robustez,corte >= 50 anúncios,20.0,8654.0,0.55
+,,15,0.7,0.0035,0.7,0.0034,robustez,corte >= 100 anúncios,15.0,8293.0,0.52
+,,11,0.82,0.0019,0.91,0.0001,robustez,corte >= 200 anúncios,11.0,7697.0,0.78
+,,25,,,,,robustez,com controle de área (log),25.0,8867.0,0.39

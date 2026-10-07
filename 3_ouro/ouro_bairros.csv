@@ -1,0 +1,154 @@
+﻿bairro,zona_portal,regiao_administrativa,anuncios,preco_m2,aluguel,area_m2,ips_da_regiao
+Barra da Tijuca,Oeste,Barra da Tijuca,1068,65.66,7500.0,110.0,69.93
+Recreio dos Bandeirantes,Oeste,Barra da Tijuca,615,41.43,5275.0,135.0,69.93
+Copacabana,Sul,Copacabana,607,77.47,6000.0,82.0,84.1
+Ipanema,Sul,Lagoa,527,126.67,16900.0,120.0,85.58
+Leblon,Sul,Lagoa,456,128.22,15500.0,100.0,85.58
+Botafogo,Sul,Botafogo,313,73.81,6500.0,95.0,89.09
+Taquara,Oeste,Jacarepaguá,252,25.0,1825.0,71.0,64.01
+Campo Grande,Oeste,Campo Grande,245,20.0,1300.0,60.0,62.45
+Tijuca,Norte,Tijuca,238,36.0,3300.0,95.5,79.51
+Jacarepaguá,Oeste,Jacarepaguá,205,40.0,2700.0,60.0,64.01
+Freguesia (Jacarepaguá),Oeste,Jacarepaguá,173,29.69,3000.0,100.0,64.01
+Vargem Pequena,Oeste,Barra da Tijuca,166,30.7,4600.0,165.5,69.93
+Flamengo,Sul,Botafogo,163,75.76,5000.0,70.0,89.09
+Lagoa,Sul,Lagoa,145,89.74,16000.0,160.0,85.58
+Méier,Norte,Méier,143,24.29,1700.0,69.0,68.99
+Vargem Grande,Oeste,Barra da Tijuca,131,30.0,5000.0,190.0,69.93
+Centro,Central,Centro,128,52.24,2100.0,35.0,57.66
+Pechincha,Oeste,Jacarepaguá,128,25.0,2200.0,74.0,64.01
+Anil,Oeste,Jacarepaguá,118,29.08,3100.0,102.5,64.01
+Irajá,Norte,Irajá,105,23.03,1300.0,57.0,65.82
+Jardim Botânico,Sul,Lagoa,86,80.71,12800.0,153.0,85.58
+Vila Isabel,Norte,Vila Isabel,83,36.0,2800.0,76.0,75.74
+Praça Seca,Oeste,Jacarepaguá,76,17.42,1300.0,68.5,64.01
+Itanhangá,Oeste,Barra da Tijuca,76,44.94,25000.0,610.0,69.93
+Vila Valqueire,Norte,Jacarepaguá,74,21.75,2000.0,85.5,64.01
+Madureira,Norte,Madureira,73,20.0,1050.0,55.0,58.67
+Vila da Penha,Norte,Irajá,68,21.32,1500.0,70.0,65.82
+Engenho de Dentro,Norte,Méier,68,25.0,1500.0,60.0,68.99
+Guaratiba,Oeste,Guaratiba,66,21.74,1200.0,60.0,47.37
+Brás de Pina,Norte,Penha,63,19.33,1000.0,60.0,63.18
+Laranjeiras,Sul,Botafogo,63,59.7,5500.0,92.0,89.09
+Jardim Guanabara,Norte,Ilha do Governador,63,32.79,3500.0,100.0,71.83
+Maracanã,Norte,Vila Isabel,61,37.01,3000.0,90.0,75.74
+Gávea,Sul,Lagoa,58,87.32,10000.0,107.5,85.58
+Cachambi,Norte,Méier,55,29.09,1990.0,60.0,68.99
+Penha Circular,Norte,Penha,54,20.0,1200.0,65.0,63.18
+Bangu,Oeste,Bangu,51,20.0,1100.0,60.0,57.47
+Realengo,Oeste,Realengo,49,20.0,1100.0,55.0,60.48
+Olaria,Norte,Ramos,49,22.58,1300.0,62.0,62.52
+Humaitá,Sul,Botafogo,48,64.91,6000.0,111.5,89.09
+Grajaú,Norte,Vila Isabel,48,33.43,2500.0,79.0,75.74
+Engenho Novo,Norte,Méier,46,24.6,1500.0,62.5,68.99
+Joá,Oeste,Barra da Tijuca,45,75.0,40000.0,700.0,69.93
+Tanque,Oeste,Jacarepaguá,43,21.67,1800.0,84.0,64.01
+Todos os Santos,Norte,Méier,42,25.0,1535.0,60.0,68.99
+São Cristóvão,Norte,São Cristóvão,41,32.89,2100.0,58.0,59.13
+Bento Ribeiro,Norte,Madureira,41,20.0,1200.0,51.0,58.67
+Piedade,Norte,Méier,40,24.34,1200.0,45.0,68.99
+Ramos,Norte,Ramos,40,21.87,1200.0,60.0,62.52
+Camorim,Oeste,Barra da Tijuca,35,57.14,3500.0,55.0,69.93
+Santa Cruz,Oeste,Santa Cruz,35,18.18,850.0,45.0,51.79
+Penha,Norte,Penha,34,19.58,1200.0,61.5,63.18
+Praça da Bandeira,Norte,Tijuca,33,38.57,2300.0,61.0,79.51
+Curicica,Oeste,Jacarepaguá,32,24.72,1850.0,70.5,64.01
+Rio Comprido,Central,Rio Comprido,32,33.33,2450.0,69.5,63.92
+São Conrado,Sul,Lagoa,32,79.38,15600.0,270.0,85.58
+Cascadura,Norte,Madureira,31,20.69,1000.0,50.0,58.67
+Santo Cristo,Central,Portuária,31,66.67,3000.0,46.0,52.76
+Oswaldo Cruz,Norte,Madureira,29,21.43,1200.0,65.0,58.67
+Leme,Sul,Copacabana,29,81.25,5300.0,59.0,84.1
+Marechal Hermes,Norte,Madureira,28,20.77,1150.0,51.5,58.67
+Andaraí,Norte,Vila Isabel,28,27.28,2300.0,77.5,75.74
+Riachuelo,Norte,Méier,27,20.0,1400.0,60.0,68.99
+Lins de Vasconcelos,Norte,Méier,25,21.43,1200.0,65.0,68.99
+Urca,Sul,Botafogo,25,72.0,17000.0,200.0,89.09
+Glória,Sul,Centro,24,71.3,3500.0,46.0,57.66
+Bonsucesso,Norte,Ramos,24,23.31,1400.0,60.0,62.52
+Jardim Sulacap,Oeste,Realengo,24,25.08,1775.0,66.0,60.48
+Encantado,Norte,Méier,23,23.75,1400.0,51.0,68.99
+Vista Alegre,Norte,Irajá,22,29.78,1650.0,51.0,65.82
+Quintino Bocaiúva,Norte,Madureira,21,18.0,850.0,50.0,58.67
+Vicente de Carvalho,Norte,Irajá,21,24.29,1400.0,62.0,65.82
+Catete,Sul,Botafogo,20,76.67,3075.0,35.0,89.09
+Pedra de Guaratiba,Oeste,Guaratiba,20,21.22,1500.0,82.5,47.37
+Guadalupe,Norte,Anchieta,19,20.0,1000.0,50.0,63.03
+Rocha Miranda,Norte,Madureira,18,18.02,1000.0,58.0,58.67
+Santa Teresa,Central,Santa Teresa,18,31.25,3150.0,100.0,68.25
+Campinho,Norte,Madureira,18,17.23,1625.0,72.5,58.67
+Cordovil,Norte,Vigário Geral,17,20.0,1000.0,55.0,60.86
+Tomás Coelho,Norte,Inhaúma,17,20.11,950.0,50.0,62.56
+Santíssimo,Oeste,Campo Grande,16,20.16,875.0,45.0,62.45
+Honório Gurgel,Norte,Madureira,15,22.0,1000.0,50.0,58.67
+Tauá,Norte,Ilha do Governador,15,28.29,1900.0,65.0,71.83
+Pilares,Norte,Méier,15,20.0,1100.0,55.0,68.99
+Senador Vasconcelos,Oeste,Campo Grande,15,15.0,900.0,66.0,62.45
+Freguesia (Ilha do Governador),Norte,Ilha do Governador,15,33.33,1800.0,51.0,71.83
+Inhaúma,Norte,Inhaúma,14,20.54,1000.0,47.5,62.56
+Del Castilho,Norte,Inhaúma,14,38.24,1995.0,51.0,62.56
+Cacuia,Norte,Ilha do Governador,13,29.27,1600.0,55.0,71.83
+Jardim Carioca,Norte,Ilha do Governador,13,28.33,1800.0,55.0,71.83
+Jardim América,Norte,Vigário Geral,12,16.52,1340.0,74.5,60.86
+Abolição,Norte,Méier,12,21.6,1425.0,61.0,68.99
+Portuguesa,Norte,Ilha do Governador,12,25.68,1600.0,65.0,71.83
+Vaz Lobo,Norte,Madureira,12,18.21,850.0,46.0,58.67
+Cosme Velho,Sul,Botafogo,12,54.89,14750.0,308.5,89.09
+Turiaçu,Norte,Madureira,12,20.26,940.0,52.0,58.67
+Colégio,Norte,Irajá,11,20.0,1250.0,65.0,65.82
+Higienópolis,Norte,Inhaúma,11,21.67,1200.0,57.0,62.56
+Vigário Geral,Norte,Vigário Geral,11,16.0,800.0,47.0,60.86
+Padre Miguel,Oeste,Bangu,11,16.25,1100.0,80.0,57.47
+Estácio,Central,Rio Comprido,10,30.82,1500.0,41.0,63.92
+Cavalcanti,Norte,Madureira,10,15.36,800.0,50.0,58.67
+Barra de Guaratiba,Oeste,Guaratiba,9,22.14,3000.0,300.0,47.37
+Cosmos,Oeste,Campo Grande,9,18.89,850.0,44.0,62.45
+Inhoaíba,Oeste,Campo Grande,9,17.05,800.0,45.0,62.45
+Parada de Lucas,Norte,Vigário Geral,9,20.0,1100.0,51.0,60.86
+Vila Kosmos,Norte,Irajá,9,22.5,1600.0,74.0,65.82
+Ricardo de Albuquerque,Norte,Anchieta,9,13.0,900.0,64.0,63.03
+Rocha,Norte,Méier,8,23.93,1475.0,71.0,68.99
+Praia da Bandeira,Norte,Ilha do Governador,8,23.66,1200.0,46.5,71.83
+Engenheiro Leal,Norte,Madureira,7,17.44,950.0,55.0,58.67
+Magalhães Bastos,Oeste,Realengo,7,19.78,1200.0,50.0,60.48
+Coelho Neto,Norte,Pavuna,7,15.62,900.0,48.0,52.18
+Zumbi,Norte,Ilha do Governador,7,27.19,1400.0,57.0,71.83
+Cocotá,Norte,Ilha do Governador,7,25.0,1500.0,52.0,71.83
+Sampaio,Norte,Méier,7,26.0,1300.0,50.0,68.99
+Alto da Boa Vista,Norte,Tijuca,6,36.17,4650.0,154.0,79.51
+Cidade Nova,Central,Rio Comprido,6,90.66,5150.0,51.5,63.92
+Maria da Graça,Norte,Inhaúma,6,22.8,1450.0,61.0,62.56
+Moneró,Norte,Ilha do Governador,6,28.34,1750.0,67.0,71.83
+Benfica,Norte,São Cristóvão,6,19.92,1780.0,96.0,59.13
+Parque Anchieta,Norte,Anchieta,5,14.17,1000.0,90.0,63.03
+Vidigal,Sul,Lagoa,5,124.98,100000.0,900.0,85.58
+São Francisco Xavier,Norte,Méier,5,26.19,1500.0,50.0,68.99
+Ribeira,Norte,Ilha do Governador,5,28.57,1500.0,55.0,71.83
+Pitangueiras,Norte,Ilha do Governador,5,23.64,1500.0,55.0,71.83
+Pavuna,Norte,Pavuna,5,18.89,850.0,50.0,52.18
+Senador Camará,Oeste,Bangu,5,15.29,1000.0,64.0,57.47
+Água Santa,Norte,Méier,5,16.67,1000.0,55.0,68.99
+Paciência,Oeste,Santa Cruz,4,18.56,625.0,50.0,51.79
+Anchieta,Norte,Anchieta,4,17.23,1300.0,77.5,63.03
+Bancários,Norte,Ilha do Governador,4,28.28,2350.0,70.0,71.83
+Catumbi,Central,Rio Comprido,4,25.21,1600.0,65.0,63.92
+Argentino,Norte,Penha,3,20.0,1600.0,70.0,63.18
+Sepetiba,Oeste,Santa Cruz,3,19.57,900.0,46.0,51.79
+Saúde,Central,Portuária,3,40.4,6000.0,120.0,52.76
+Praça Seca,Norte,Jacarepaguá,2,13.48,1565.0,127.5,64.01
+Vila Militar,Oeste,Realengo,2,20.0,1200.0,60.0,60.48
+Santa Teresa,Sul,Santa Teresa,2,64.9,41400.0,654.5,68.25
+Jacaré,Norte,Méier,2,18.23,1650.0,105.5,68.99
+Marechal Hermes,Oeste,Madureira,2,34.88,6200.0,184.0,58.67
+Gamboa,Central,Portuária,2,39.16,15850.0,330.0,52.76
+Freguesia (Ilha do Governador),Oeste,Ilha do Governador,2,23.87,1550.0,64.5,71.83
+Bangu,Sul,Bangu,1,10.0,1500.0,150.0,57.47
+Acari,Norte,Pavuna,1,17.69,4600.0,260.0,52.18
+Campo dos Afonsos,Norte,Realengo,1,21.25,1700.0,80.0,60.48
+Caju,Norte,Portuária,1,7.6,14600.0,1920.0,52.76
+Centro,Sul,Centro,1,108.99,9809.0,90.0,57.66
+Gardênia Azul,Oeste,Jacarepaguá,1,30.77,1200.0,39.0,64.01
+Manguinhos,Norte,Ramos,1,16.67,1000.0,60.0,62.52
+Realengo,Norte,Realengo,1,38.67,2900.0,75.0,60.48
+São Conrado,Oeste,Lagoa,1,13.33,12000.0,900.0,85.58
+Vasco da Gama,Norte,São Cristóvão,1,20.71,1450.0,70.0,59.13
